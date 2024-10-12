@@ -29,3 +29,9 @@ fun nullSafety() {
 fun strLength(notNull: String): Int {
     return notNull.length
 }
+
+//println(strLength(neverNull))  // 18
+
+fun main() {
+    nullSafety()
+}
