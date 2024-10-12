@@ -27,3 +27,10 @@ fun withDefaultParameter(name: String = "Indra", age: Int) {
     println("== withDefaultParameter ==")
     println("Hello, $name! You are $age years old.")
 }
+
+fun main() {
+    withoutParameter()
+    withParameter("John")
+    withNamedArgument(name = "John", age = 30)
+    withDefaultParameter(age = 25)
+}
